@@ -1,4 +1,4 @@
-local Players = game:GetService("Players")
+slocal Players = game:GetService("Players")
 local UIS = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
 local GuiService = game:GetService("GuiService")
@@ -1524,8 +1524,8 @@ if not islclosure then
     islclosure = islua or function(f) return type(f) == "function" end
 end
 
-local FOV = 20
-local Chance = 100
+local FOV = 15
+local Chance = 90
 local target = nil
 
 
